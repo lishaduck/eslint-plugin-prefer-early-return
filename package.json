@@ -14,7 +14,9 @@
   },
   "keywords": [
     "eslint",
-    "plugin"
+    "plugin",
+    "eslintplugin",
+    "eslint-plugin"
   ],
   "exports": {
     ".": {

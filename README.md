@@ -13,9 +13,9 @@ import preferEarlyReturn from "@regru/eslint-plugin-prefer-early-return";
 
 export default [
   {
-    plugins: { "@regru": preferEarlyReturn },
+    plugins: { "@regru/prefer-early-return": preferEarlyReturn },
     rules: {
-      "@regru/prefer-early-return": ["warn", { maximumStatements: 1 }],
+      "@regru/prefer-early-return/prefer-early-return": ["warn", { maximumStatements: 1 }],
     },
   },
 ];
