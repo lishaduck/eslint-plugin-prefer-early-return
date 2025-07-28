@@ -8,7 +8,7 @@ module.exports = {
             category: 'Best Practices',
             recommended: false,
             uri:
-                'https://github.com/Shopify/eslint-plugin-shopify/blob/master/docs/rules/prefer-early-return.md',
+                'https://github.com/regru/eslint-plugin-prefer-early-return/blob/master/docs/rules/prefer-early-return.md',
         },
         schema: [
             {
