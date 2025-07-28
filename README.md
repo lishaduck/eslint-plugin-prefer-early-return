@@ -1,27 +1,26 @@
-Copy-paste from `eslint-plugin-shopify` from shopify team without unwanted dependencies and restrictions
+# eslint-plugin-prefer-early-return
+
+Copy-paste from `eslint-plugin-shopify` from Shopify team without unwanted dependencies and restrictions.
 
 ## Installation
 
-npm install @regru/eslint-plugin-prefer-early-return --save-dev
+`npm install @regru/eslint-plugin-prefer-early-return --save-dev`
 
 ## Usage
 
-```
-{
-  "plugins": [
-    "@regru/prefer-early-return",
-    …
-  ],
-  "rules": {
-    "@regru/prefer-early-return/prefer-early-return": ["error", {
-      "maximumStatements": 1
-    }],
-    …
+```js
+import preferEarlyReturn from "@regru/eslint-plugin-prefer-early-return";
+
+export default [
+  {
+    plugins: { "@regru": preferEarlyReturn },
+    rules: {
+      "@regru/prefer-early-return": ["warn", { maximumStatements: 1 }],
+    },
   },
-  …
-}
+];
 ```
 
-## Plugin-Provided Rule
+## Plugin-Provided Rules
 
-[prefer-early-return](docs/rules/prefer-early-return.md)
+- [prefer-early-return](docs/rules/prefer-early-return.md)

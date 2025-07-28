@@ -1,13 +1,10 @@
 {
   "name": "@regru/eslint-plugin-prefer-early-return",
   "version": "1.0.0",
-  "description": "Copy-paste from `eslint-plugin-shopify` from shopify team without unwanted dependensies and restrictions",
+  "description": "Copy-paste from `eslint-plugin-shopify` from Shopify team without unwanted dependencies and restrictions",
   "main": "index.js",
   "directories": {
     "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Makarychev Andrey <shiftmailbox@gmail.com>",
   "license": "MIT",
