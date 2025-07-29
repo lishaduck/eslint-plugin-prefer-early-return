@@ -1,8 +1,9 @@
-import type { ESLint } from "eslint";
+import type { ESLint } from "eslint/universal";
 
-declare const Plugin: ESLint.Plugin;
-declare namespace Plugin {
-    export const rules: NonNullable<ESLint.Plugin["rules"]>;
+interface Plugin extends ESLint.Plugin {
+  rules: NonNullable<ESLint.Plugin["rules"]>;
 }
+
+declare const Plugin: Plugin;
 
 export = Plugin;
